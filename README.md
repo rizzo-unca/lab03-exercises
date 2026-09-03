@@ -80,19 +80,26 @@ git log shows you your commits and the associated messages that were sent up wit
 git diff will show you the differences between your code since you last committed. It will show removed lines in red and added lines in green
 
 ### 1.7 Repository link
+git@github.com:rizzo-unca/lab03-exercises.git
 
 ### 1.8 Comparing approaches
 
 In your own words:
 
 - How does the nested-loop approach check for a duplicate?
+it walks through the array and compares each number with every other number starting with index 0 and comparing the rest of the indexes with it and so on and so forth
 - How does the set-based approach check for a duplicate?
+python converts the given list into a set and compares the set length to the original list and if the set is smaller it knows theres a duplicate since python sets can't have duplicates in them
 - What is the runtime and memory trade-off of each?
+nested loop runs on O(n^2) time whilst set based runs in O(n) time. The nested approach is significantly slower but uses a lot less memmory because it's just doing simple comparisons. The set-based approach has to create new sets for each set of data so it uses a lot more memory.
 
 ### 1.9 Pull request merge options
 
 In your own words, what does each GitHub merge option do?
 
 - Create a merge commit
+It adds all of the changes you've staged and committed to the branch back to the main branch provided there are no merge conflicts.
 - Squash and merge
+Git will take all of the commits you've made on your current branch and turn them all into one big commit and merge that back onto the base branch.
 - Rebase and merge
+Git takes the commits, checks for merge conflicts, and if there are none will add them back to the main branch linerally so it looks like you never made a new branch.
