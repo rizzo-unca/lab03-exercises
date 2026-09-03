@@ -80,6 +80,7 @@ git log shows you your commits and the associated messages that were sent up wit
 git diff will show you the differences between your code since you last committed. It will show removed lines in red and added lines in green
 
 ### 1.7 Repository link
+git@github.com:rizzo-unca/lab03-exercises.git
 
 ### 1.8 Comparing approaches
 
