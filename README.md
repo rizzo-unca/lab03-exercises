@@ -1,4 +1,5 @@
 # Lab 03: Git and GitHub
+This repository documents my practice with local Git, GitHub, branches and pull requests.
 
 ## README Responses
 
@@ -22,12 +23,40 @@ Untracked files:
         README.md
 
 ### 1.3 After the first commit
+On branch main
+nothing to commit, working tree clean
 
 ### 1.4 git log
+aba33fa (HEAD -> main) Create lab README
 
 ### 1.5 git diff
+git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
 
-Paste the `git status` and `git diff` commands and their output.
+no changes added to commit (use "git add" and/or "git commit -a")
+
+--------------------------------------------------------------------------
+
+git diff
+diff --git a/README.md b/README.md
+index 468274f..0442322 100644
+--- a/README.md
++++ b/README.md
+@@ -1,4 +1,5 @@
+ # Lab 03: Git and GitHub
++This repository documents my practice with local Git, GitHub, branches and pull requests.
+ 
+ ## README Responses
+ 
+@@ -22,8 +23,11 @@ Untracked files:
+         README.md
+ 
+ ### 1.3 After the first commit
++On branch main
 
 How does this `git status` differ from the one in **1.2**?
 
