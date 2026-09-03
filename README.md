@@ -87,8 +87,11 @@ git@github.com:rizzo-unca/lab03-exercises.git
 In your own words:
 
 - How does the nested-loop approach check for a duplicate?
+it walks through the array and compares each number with every other number starting with index 0 and comparing the rest of the indexes with it and so on and so forth
 - How does the set-based approach check for a duplicate?
+python converts the given list into a set and compares the set length to the original list and if the set is smaller it knows theres a duplicate since python sets can't have duplicates in them
 - What is the runtime and memory trade-off of each?
+nested loop runs on O(n^2) time whilst set based runs in O(n) time. The nested approach is significantly slower but uses a lot less memmory because it's just doing simple comparisons. The set-based approach has to create new sets for each set of data so it uses a lot more memory.
 
 ### 1.9 Pull request merge options
 
