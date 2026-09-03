@@ -59,17 +59,25 @@ index 468274f..0442322 100644
 +On branch main
 
 How does this `git status` differ from the one in **1.2**?
+in 1.2 the git status says there arent any commits yet but in 
+1.5 it says there are changes that havent been staged for commit.
 
 ### 1.6 Git command reflections
 
 In one or two sentences each, what does each command do?
 
 - `git init`
+this creates a new fresh git repostiory in whatever directory youre currently working in.
 - `git status`
+this tells you if you have unstaged changes that have been made to any of the files in your repository.
 - `git add`
+git add saves the changes to files you've made in your current directory and gets them ready to be staged
 - `git commit`
+git commit saves your staged changes locally. It's like taking a snapshot of your repo's history you can go back to at any time should a bug pop up!
 - `git log`
+git log shows you your commits and the associated messages that were sent up with them.
 - `git diff`
+git diff will show you the differences between your code since you last committed. It will show removed lines in red and added lines in green
 
 ### 1.7 Repository link
 
