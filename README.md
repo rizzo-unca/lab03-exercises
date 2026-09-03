@@ -98,5 +98,8 @@ nested loop runs on O(n^2) time whilst set based runs in O(n) time. The nested a
 In your own words, what does each GitHub merge option do?
 
 - Create a merge commit
+It adds all of the changes you've staged and committed to the branch back to the main branch provided there are no merge conflicts.
 - Squash and merge
+Git will take all of the commits you've made on your current branch and turn them all into one big commit and merge that back onto the base branch.
 - Rebase and merge
+Git takes the commits, checks for merge conflicts, and if there are none will add them back to the main branch linerally so it looks like you never made a new branch.
